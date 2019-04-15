@@ -1,0 +1,25 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+.badge {
+  border-radius: 50%;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  right: -12px;
+  line-height: 17px;
+  z-index: 10;
+}
+
+.badge-low {
+  background-color: config('colors.orange');
+}
+
+.badge-hight {
+  background-color: config('colors.red');
+}
